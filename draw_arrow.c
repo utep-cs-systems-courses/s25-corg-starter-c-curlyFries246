@@ -1,7 +1,7 @@
 #include "draw.h"		/* for font */
 #include "stdio.h"		/* for putchar */
 
-void print_char_5x7(char c)
+void print_arrow(char c)
 {
   c -= 0x20;
   for (char col = 0; col < 10; col++) {
@@ -14,4 +14,3 @@ void print_char_5x7(char c)
   }
   putchar('\n');
 }
- 

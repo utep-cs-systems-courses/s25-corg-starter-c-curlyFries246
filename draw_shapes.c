@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include "draw.h"
 
+
 /* Prints a size x size square whose left col is at startCol */
 void print_square(int leftCol, int size)
 {
@@ -23,6 +24,10 @@ void print_triangle(int leftCol, int size)
     for (col = 0; col < minCol; col++) putchar(' ');
     for (       ; col <= maxCol; col++) putchar('*');
     putchar('\n');
+
   }
 }
+ 
+
+
 
